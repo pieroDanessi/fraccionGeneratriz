@@ -1,0 +1,60 @@
+body
+{
+    margin-left: 20px;
+    background-color: #E0FFFF;
+}
+
+h1
+{
+    font-size: 300%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2
+{
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+}
+
+input
+{
+    border-radius: 20px;
+    border-color: rgb(151, 255, 255);
+    background-color: #efffff;
+    width: 200px;
+    border-width: 2px;
+    outline: 0;
+}
+
+input:hover
+{
+    border-width: 3px;
+}
+
+input::placeholder
+{
+    padding-left: 5px;
+}
+
+#calcularButtonPP
+{
+    width: 90px;
+}
+#calcularButtonE
+{
+    width: 90px;
+}
+#calcularButtonPM
+{
+    width: 90px;
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+section
+{
+    margin-bottom: 4%;
+}

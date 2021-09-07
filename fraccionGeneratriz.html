@@ -4,10 +4,42 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./fraccionGeneratriz.css">
+        <link  rel="icon" href="./favicon.png" type="image/png" />
         <title>Calculadora de Fracción Generatriz</title>
     </head>
 
     <body>
+        <header>
+            <h1>
+                Calculadora de la Fracción Generatriz
+            </h1>
+        </header>
+
+        <section>
+            <h2>Decimales Exactos</h2>
+            <input type="number" id = "inputE" placeholder="ex: 1.56">
+            <input type="button" value="Calcular" id="calcularButtonE">
+            <p id="resultadoE"></p>
+        </section>
         
+        <section>
+            <h2>Decimales Periódicos Puros</h2>
+            <input type="number" id = "inputEnteroPP" placeholder="Parte entera">
+            <input type="number" id = "inputRepitientePP" placeholder="Parte decimal que se repite">
+            <input type="button" value="Calcular" id="calcularButtonPP">
+            <p id="resultadoPP"></p>
+        </section>
+
+        <section>
+            <h2>Decimales Periódicos Mixtos</h2>
+            <input type="number" id = "inputEnteroPM" placeholder="Parte entera">
+            <input type="number" id = "inputNoRepitientePM" placeholder="Parte decimal que NO se repite">
+            <input type="number" id = "inputRepitientePM" placeholder="Parte decimal que se repite">
+            <input type="button" value="Calcular" id="calcularButtonPM">
+            <p id="resultadoPM"></p>
+        </section>
+
+        <script src="fraccionGeneratriz.js"></script>
     </body>
 </html>
